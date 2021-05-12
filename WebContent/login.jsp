@@ -3,7 +3,7 @@
 <html>
 <head>
 <title>电子书城</title>
-	<link rel="stylesheet" href="${pageContext.request.contextPath }/client/css/main.css" type="text/css" />
+	<link rel="stylesheet" href="${pageContext.request.contextPath }/css/main.css" type="text/css" />
 </head>
 <body class="main">
 	<jsp:include page="head.jsp" />
@@ -22,7 +22,7 @@
 												<table width="100%" border="0" cellspacing="0">
 													<tr>
 														<td style="text-align:center; padding-top:20px">
-															<img src="${pageContext.request.contextPath }/client/images/logintitle.gif" width="150" height="30" />
+															<img src="${pageContext.request.contextPath }/images/logintitle.gif" width="150" height="30" />
 														</td>
 													</tr>
 													<tr>
@@ -58,13 +58,13 @@
 																	<td colspan="2"
 																		style="padding-top:10px; text-align:center">
 																		<input name="image" type="image" onclick="return formcheck()"
-																		src="${pageContext.request.contextPath }/client/images/loginbutton.gif" width="90" height="30" />
+																		src="${pageContext.request.contextPath }/images/loginbutton.gif" width="90" height="30" />
 																	</td>
 																</tr>
 
 																<tr>
 																	<td colspan="2" style="padding-top:10px">
-																		<img src="${pageContext.request.contextPath }/client/images/loginline.gif" width="241" height="10" />
+																		<img src="${pageContext.request.contextPath }/images/loginline.gif" width="241" height="10" />
 																	</td>
 																</tr>
 																<!-- <tr>
@@ -84,8 +84,8 @@
 											<p>千种图书，供你挑选！注册即享受丰富折扣和优惠，便宜有好货！超过万本图书任您选。</p>
 											<p>超人气社区！精彩活动每一天。买卖更安心！支付宝交易超安全。</p>
 											<p style="text-align:left">
-												<a href="${pageContext.request.contextPath }/client/register.jsp">
-													<img src="${pageContext.request.contextPath }/client/images/signupbutton.gif" width="135" height="33" />
+												<a href="${pageContext.request.contextPath }/register.jsp">
+													<img src="${pageContext.request.contextPath }/images/signupbutton.gif" width="135" height="33" />
 												</a>
 											</p>
 										</td>
