@@ -5,8 +5,8 @@
 
 <title>传智书城注册页面</title>
 
-<link rel="stylesheet" href="${pageContext.request.contextPath}/client/css/main.css" type="text/css"/>
-<script type="text/javascript" src="${pageContext.request.contextPath}/client/js/form.js"></script>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/main.css" type="text/css"/>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/form.js"></script>
 <script type="text/javascript">
 	function changeImage() {
 		document.getElementById("img").src = "${pageContext.request.contextPath}/imageCode?time="

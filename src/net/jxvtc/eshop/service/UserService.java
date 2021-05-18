@@ -7,6 +7,7 @@ import net.jxvtc.eshop.domain.User;
 import net.jxvtc.eshop.exception.RegisterException;
 import net.jxvtc.eshop.utils.MailUtils;
 
+
 public class UserService {
 	private UserDao dao = new UserDao();
 	

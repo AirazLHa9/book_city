@@ -32,14 +32,14 @@ public class LoginServlet extends HttpServlet {
 				response.sendRedirect(request.getContextPath() + "/admin/login/home.jsp");
 				return;
 			} else {
-				response.sendRedirect(request.getContextPath() + "/client/myAccount.jsp");
+				response.sendRedirect(request.getContextPath() + "/myAccount.jsp");
 				return;
 			}
 		} catch (LoginException e) {
 			
 			e.printStackTrace();
 			request.setAttribute("register_message", e.getMessage());
-			request.getRequestDispatcher("/client/login.jsp").forward(request, response);
+			request.getRequestDispatcher("/login.jsp").forward(request, response);
 			return;
 		}
 	}
