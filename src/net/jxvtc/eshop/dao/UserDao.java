@@ -38,6 +38,7 @@ public class UserDao {
 	}
 	
 	
+	
 	public User findUserByUsernameAndPassword(String username, String password) throws SQLException {
 		String sql="select * from user where username=? and password=?";
 		QueryRunner runner = new QueryRunner(DataSourceUtils.getDataSource());
