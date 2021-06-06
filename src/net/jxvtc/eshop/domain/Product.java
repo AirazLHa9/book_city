@@ -17,7 +17,6 @@ public class Product implements Serializable {
 	public String getId() {
 		return id;
 	}
-	
 
 //	public String getAuthor() {
 //		return author;
